@@ -36,3 +36,6 @@ def calcular(opc, P, V, n, T):
         return "La temperatura es: " + str(P * V / (R * n))
     else:
         return "Opcion mal ingresada."
+
+o, p, v, n, t = datos()
+print(calcular(o, p, v, n, t))
