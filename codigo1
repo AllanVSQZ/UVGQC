@@ -1,0 +1,7 @@
+# Codigo de python
+
+a = 12
+
+b = 6
+
+a/b
